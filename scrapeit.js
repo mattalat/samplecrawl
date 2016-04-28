@@ -13,8 +13,6 @@ var c = new Crawler({
     callback : function (error, result, $) {
 	   	if(!result.body) return; // disregard odd results
 
-	   	console.log(result.url);
-
     	var html; // the body of the page
 
     	// Try to load
