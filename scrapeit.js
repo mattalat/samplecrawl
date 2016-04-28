@@ -1,3 +1,6 @@
+// Using https://github.com/sylvinus/node-crawler
+
+
 var Crawler = require('Crawler'),
 url = require('url'), 
 $ = require('cheerio');
